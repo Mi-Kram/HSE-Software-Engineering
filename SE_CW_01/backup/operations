@@ -1,0 +1,1352 @@
+[
+  {
+    "ID": "b17c1554-8d60-415b-b5cd-e4f05971fb96",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 2,
+    "Amount": 11300,
+    "Date": "2021-06-14T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "80309903-dc34-4ed1-8525-5d00a8ca20bf",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 2270,
+    "Date": "2021-06-16T18:47:55",
+    "Description": ""
+  },
+  {
+    "ID": "67dd2fa0-c292-4a12-979d-d636892df6ba",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 3,
+    "Amount": 4300,
+    "Date": "2021-06-22T16:28:58",
+    "Description": ""
+  },
+  {
+    "ID": "0861fad3-e5c7-4f57-b031-898f45c5513e",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 12900,
+    "Date": "2021-06-28T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "b86d9889-6beb-4843-8b59-01505d6156c4",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 2280,
+    "Date": "2021-06-28T16:29:07",
+    "Description": ""
+  },
+  {
+    "ID": "15547547-f9a4-4513-9715-ff8311803f33",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 3090,
+    "Date": "2021-07-04T22:14:48",
+    "Description": ""
+  },
+  {
+    "ID": "32b7ea6a-7944-4ddd-96aa-2fc5b600f5ca",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 2860,
+    "Date": "2021-07-11T21:06:01",
+    "Description": ""
+  },
+  {
+    "ID": "2264a88f-219e-4812-b4b7-ba8509636511",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 13700,
+    "Date": "2021-07-12T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "079c039e-74df-47ec-8377-d442a7ac8e02",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 2840,
+    "Date": "2021-07-14T03:59:32",
+    "Description": ""
+  },
+  {
+    "ID": "38133b24-381b-43e5-be4a-b9470950f824",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 1,
+    "Amount": 1210,
+    "Date": "2021-07-20T00:40:09",
+    "Description": ""
+  },
+  {
+    "ID": "107c1f23-dc80-4b08-a64f-b37972df5bd4",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 2,
+    "Amount": 6200,
+    "Date": "2021-07-26T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "b34cd052-e6fd-4673-9531-b6ea855ac044",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 1270,
+    "Date": "2021-07-26T13:13:48",
+    "Description": ""
+  },
+  {
+    "ID": "0e848c73-28d5-4797-8062-43aebc2299bf",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 4930,
+    "Date": "2021-07-29T00:21:19",
+    "Description": ""
+  },
+  {
+    "ID": "8025312b-795b-4c07-8249-9eca289e6a44",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 1630,
+    "Date": "2021-07-29T12:12:30",
+    "Description": ""
+  },
+  {
+    "ID": "f477536c-56d1-4a42-b77a-c48e0c260a27",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 2770,
+    "Date": "2021-08-03T00:47:11",
+    "Description": ""
+  },
+  {
+    "ID": "c57833a2-3684-428c-9aa9-07d5e8c113c3",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 1580,
+    "Date": "2021-08-05T05:11:36",
+    "Description": ""
+  },
+  {
+    "ID": "21ad7c46-55bc-49c6-9b9f-4a43836c11b1",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 2370,
+    "Date": "2021-08-06T00:51:10",
+    "Description": ""
+  },
+  {
+    "ID": "58a12112-1b8f-4820-b4f6-437f85f72c01",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 4,
+    "Amount": 16500,
+    "Date": "2021-08-09T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "76688ca9-91fd-4050-ace5-6f7dda362bca",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 2780,
+    "Date": "2021-08-12T02:15:52",
+    "Description": ""
+  },
+  {
+    "ID": "91053513-d8ad-4c81-b066-9c969376d9f7",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 2090,
+    "Date": "2021-08-13T11:52:48",
+    "Description": ""
+  },
+  {
+    "ID": "25e8f3f6-1009-4db3-8484-d58574558fbc",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 4840,
+    "Date": "2021-08-15T23:30:06",
+    "Description": ""
+  },
+  {
+    "ID": "768f3aab-ade5-4c0f-84e0-2a7bf96333ec",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 1150,
+    "Date": "2021-08-21T09:08:12",
+    "Description": ""
+  },
+  {
+    "ID": "d79f258c-ef2e-4a95-9d5e-7ad08e46453c",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 14900,
+    "Date": "2021-08-23T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "e4634437-2210-49b3-a0e5-b5041f36d767",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 1110,
+    "Date": "2021-08-26T19:58:48",
+    "Description": ""
+  },
+  {
+    "ID": "dc4c3492-c19c-4e38-b618-27ad2333428a",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 880,
+    "Date": "2021-09-01T16:20:08",
+    "Description": ""
+  },
+  {
+    "ID": "8342cf78-869f-40cd-b295-d31305bfe14c",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 2,
+    "Amount": 9800,
+    "Date": "2021-09-06T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "19f0580b-4e86-4d0d-a530-54127d4b5026",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 3,
+    "Amount": 2630,
+    "Date": "2021-09-07T17:15:48",
+    "Description": ""
+  },
+  {
+    "ID": "a70ff3b8-941c-4a6c-aa81-fca53bb4fb37",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 240,
+    "Date": "2021-09-08T08:55:34",
+    "Description": ""
+  },
+  {
+    "ID": "99917db1-f013-4571-9f9e-c7bd84199850",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 4090,
+    "Date": "2021-09-15T06:43:15",
+    "Description": ""
+  },
+  {
+    "ID": "76793da4-d955-469e-9124-a8b0c8047c1e",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 6,
+    "Amount": 2520,
+    "Date": "2021-09-16T09:20:39",
+    "Description": ""
+  },
+  {
+    "ID": "a5c07abf-822c-48fa-a904-3184cce85ec8",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 2,
+    "Amount": 10300,
+    "Date": "2021-09-20T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "c6310f38-9ef6-4b77-9ed1-39bad1f945c5",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 4960,
+    "Date": "2021-09-23T04:03:02",
+    "Description": ""
+  },
+  {
+    "ID": "a247818b-8a78-425d-bace-f8e2f96e5a88",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 6,
+    "Amount": 3230,
+    "Date": "2021-09-25T02:07:02",
+    "Description": ""
+  },
+  {
+    "ID": "2def3ee9-5eb3-471c-94e2-dcce32ea8312",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 2510,
+    "Date": "2021-09-27T06:15:12",
+    "Description": ""
+  },
+  {
+    "ID": "f52ce26b-b8ab-4798-adbd-7c79e66c414e",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 2650,
+    "Date": "2021-09-28T22:26:45",
+    "Description": ""
+  },
+  {
+    "ID": "f6744d3f-eef1-4e1b-a3a3-745de8bc9e32",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 3330,
+    "Date": "2021-10-01T16:45:35",
+    "Description": ""
+  },
+  {
+    "ID": "b94edab9-4680-4e48-87fb-c9335b763afb",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 4910,
+    "Date": "2021-10-02T13:29:05",
+    "Description": ""
+  },
+  {
+    "ID": "a9e77051-83ed-40c9-b116-7dfe038585f3",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 11200,
+    "Date": "2021-10-04T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "95d551f7-f08d-48c6-9367-2659e5ff073e",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 560,
+    "Date": "2021-10-09T10:08:10",
+    "Description": ""
+  },
+  {
+    "ID": "f4ad49e0-5cd4-4524-affc-e660e11393d1",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 1670,
+    "Date": "2021-10-14T11:34:11",
+    "Description": ""
+  },
+  {
+    "ID": "656f27db-ab89-4369-9a52-87e1cdd80b5b",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 3500,
+    "Date": "2021-10-16T07:23:21",
+    "Description": ""
+  },
+  {
+    "ID": "50767cd1-25f5-45c1-9f64-3518dc9a2e5c",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 7700,
+    "Date": "2021-10-18T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "36161208-d468-4c9c-91e9-3ef423974a24",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 2040,
+    "Date": "2021-10-18T19:50:47",
+    "Description": ""
+  },
+  {
+    "ID": "e8fa7241-a412-4e80-805a-138c96cd423e",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 1620,
+    "Date": "2021-10-19T11:34:05",
+    "Description": ""
+  },
+  {
+    "ID": "140bfcb8-b812-440b-9561-6da7857b409a",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 2270,
+    "Date": "2021-10-19T20:44:31",
+    "Description": ""
+  },
+  {
+    "ID": "6ba0917f-4f88-48df-9d3b-deba9df34fa3",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 1,
+    "Amount": 2050,
+    "Date": "2021-10-25T17:36:43",
+    "Description": ""
+  },
+  {
+    "ID": "6fea66a3-f5fa-4d8a-9ff7-bf3ec23a575e",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 3940,
+    "Date": "2021-10-28T20:03:51",
+    "Description": ""
+  },
+  {
+    "ID": "bf44c953-44aa-42e1-aa2d-0ab91643573b",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 2,
+    "Amount": 6800,
+    "Date": "2021-11-01T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "36aae89d-7ec1-4a21-af28-40c423b14dbc",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 1420,
+    "Date": "2021-11-04T00:35:02",
+    "Description": ""
+  },
+  {
+    "ID": "e8cd8080-67b6-4354-89e4-e9f3ad95edb2",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 4020,
+    "Date": "2021-11-10T07:58:07",
+    "Description": ""
+  },
+  {
+    "ID": "f652a049-a0ca-4082-8bc2-db2e8311cb0d",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 2200,
+    "Date": "2021-11-11T03:58:43",
+    "Description": ""
+  },
+  {
+    "ID": "502b259f-1610-4062-ab6a-bf678c4e7fbd",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 4,
+    "Amount": 10400,
+    "Date": "2021-11-15T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "535df981-6bb7-460f-b4dc-34c84281263e",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 630,
+    "Date": "2021-11-15T14:11:35",
+    "Description": ""
+  },
+  {
+    "ID": "ad9715c3-7415-4430-acfd-91b35cb463a2",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 3850,
+    "Date": "2021-11-17T16:31:23",
+    "Description": ""
+  },
+  {
+    "ID": "102a4bfc-18b0-4d2c-b0ee-83096fbf33e5",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 1,
+    "Amount": 4890,
+    "Date": "2021-11-22T19:26:40",
+    "Description": ""
+  },
+  {
+    "ID": "5be2088f-121a-4a94-88b0-c672a5e3944e",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 4070,
+    "Date": "2021-11-25T00:16:12",
+    "Description": ""
+  },
+  {
+    "ID": "d3067f58-e9e3-4e82-a6c9-8ab28ffe1319",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 1840,
+    "Date": "2021-11-27T01:18:50",
+    "Description": ""
+  },
+  {
+    "ID": "0b0fd9ad-03e1-42ad-8d43-779287697a0c",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 4370,
+    "Date": "2021-11-27T05:01:47",
+    "Description": ""
+  },
+  {
+    "ID": "897b23d0-ac1a-45ac-b55f-e9a74f12e6b7",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 7800,
+    "Date": "2021-11-29T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "b03a971c-f652-43f9-85cd-7dbc0d07fa67",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 3680,
+    "Date": "2021-12-01T12:43:43",
+    "Description": ""
+  },
+  {
+    "ID": "f71a3f0f-4f4c-43fd-be8d-3a1e81103ddb",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 4640,
+    "Date": "2021-12-02T11:15:27",
+    "Description": ""
+  },
+  {
+    "ID": "8f957cb5-05f8-491a-8437-500666d3d266",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 3070,
+    "Date": "2021-12-04T21:17:18",
+    "Description": ""
+  },
+  {
+    "ID": "a860aeab-96f1-4996-82d2-da2afd5a66f8",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 1900,
+    "Date": "2021-12-06T18:01:50",
+    "Description": ""
+  },
+  {
+    "ID": "822b6231-abc0-42a7-9d7d-e4d38b9c700a",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 3280,
+    "Date": "2021-12-11T08:23:50",
+    "Description": ""
+  },
+  {
+    "ID": "d80ef3dd-4c08-4951-8fcb-98ee782050f6",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 17200,
+    "Date": "2021-12-13T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "a973d1ec-7ed6-4254-bcae-eab6a8bfb84d",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 3420,
+    "Date": "2021-12-17T17:22:49",
+    "Description": ""
+  },
+  {
+    "ID": "3376b298-37e5-42ef-a9e1-60d5b07de621",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 4890,
+    "Date": "2021-12-22T10:09:28",
+    "Description": ""
+  },
+  {
+    "ID": "435b666f-3061-4bf9-adfc-02d35aebf2ee",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 2640,
+    "Date": "2021-12-23T09:32:29",
+    "Description": ""
+  },
+  {
+    "ID": "1412fa2d-20b6-4e78-aa88-69fb6a0b51b9",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 6,
+    "Amount": 4400,
+    "Date": "2021-12-25T14:09:33",
+    "Description": ""
+  },
+  {
+    "ID": "0c4500b9-c4c4-4cdf-b6df-7ec66999cfe3",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 6,
+    "Amount": 4350,
+    "Date": "2021-12-26T17:53:55",
+    "Description": ""
+  },
+  {
+    "ID": "5be7140e-1569-49e0-a5d6-5b636c944729",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 2,
+    "Amount": 6500,
+    "Date": "2021-12-27T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "28030771-6a8b-4c02-8a58-11147dc789a1",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 4830,
+    "Date": "2021-12-31T18:37:20",
+    "Description": ""
+  },
+  {
+    "ID": "aa7cbd09-6618-492a-b4c6-75c958ea9a97",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 3690,
+    "Date": "2022-01-06T03:04:20",
+    "Description": ""
+  },
+  {
+    "ID": "21226fc9-898c-49ed-bb2d-f3ddc7eee830",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 4,
+    "Amount": 9100,
+    "Date": "2022-01-10T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "dfc65088-29cd-488a-899b-e00c78dfa8e1",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 3120,
+    "Date": "2022-01-11T12:36:45",
+    "Description": ""
+  },
+  {
+    "ID": "9b9ba3c9-fc5a-4b4b-a611-b52ed1ce1c33",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 2770,
+    "Date": "2022-01-12T04:50:27",
+    "Description": ""
+  },
+  {
+    "ID": "d2cb1a42-fe79-4502-a239-c57542c8c713",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 1860,
+    "Date": "2022-01-15T09:47:13",
+    "Description": ""
+  },
+  {
+    "ID": "39a23ed1-f4e1-4bd0-a536-3069298e384d",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 2520,
+    "Date": "2022-01-20T00:48:36",
+    "Description": ""
+  },
+  {
+    "ID": "35e9acc5-7155-4a6d-a3ae-a03f2cd61790",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 4,
+    "Amount": 11700,
+    "Date": "2022-01-24T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "25f4e7e4-6a1e-41fc-af08-8a0a5b3e8083",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 3260,
+    "Date": "2022-01-24T17:12:20",
+    "Description": ""
+  },
+  {
+    "ID": "5a5684a9-7614-465f-82c4-fd77fcc01de7",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 950,
+    "Date": "2022-01-28T11:57:42",
+    "Description": ""
+  },
+  {
+    "ID": "7bde5550-ca3f-4979-bf1f-d192217f2296",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 120,
+    "Date": "2022-02-04T08:50:50",
+    "Description": ""
+  },
+  {
+    "ID": "6d302f94-5fa5-4868-8650-923a0bc57084",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 6800,
+    "Date": "2022-02-07T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "b6af6fb3-7bde-499f-b5d0-07ac351a56b2",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 660,
+    "Date": "2022-02-09T01:32:05",
+    "Description": ""
+  },
+  {
+    "ID": "f6823c4d-e92c-4eb5-bfc8-24b5e48dc76f",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 3650,
+    "Date": "2022-02-14T18:43:50",
+    "Description": ""
+  },
+  {
+    "ID": "5e5e77b7-3057-4821-909c-109bcd0ad816",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 4010,
+    "Date": "2022-02-19T06:27:14",
+    "Description": ""
+  },
+  {
+    "ID": "f73ef48a-eb1c-4649-8313-33143a38230d",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 4,
+    "Amount": 17100,
+    "Date": "2022-02-21T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "cead7bec-3e8b-442c-a2de-dfa8ec7d4250",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 4170,
+    "Date": "2022-02-22T05:07:21",
+    "Description": ""
+  },
+  {
+    "ID": "84aa1e5f-b686-4890-9606-c5856306b074",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 230,
+    "Date": "2022-02-26T10:24:35",
+    "Description": ""
+  },
+  {
+    "ID": "7f45dc4c-f7ca-4277-b70d-09d97a15aa82",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 6,
+    "Amount": 2840,
+    "Date": "2022-02-28T04:33:00",
+    "Description": ""
+  },
+  {
+    "ID": "fd28dbd3-c9eb-46c5-87cc-e3b5d745bfa4",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 2130,
+    "Date": "2022-03-02T11:56:17",
+    "Description": ""
+  },
+  {
+    "ID": "8057fd14-b107-45a5-8d30-5ee8b44eaaa6",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 2180,
+    "Date": "2022-03-04T13:50:03",
+    "Description": ""
+  },
+  {
+    "ID": "a5cbf6d2-3d16-4442-82db-ff27147bf4e8",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 2070,
+    "Date": "2022-03-05T16:14:38",
+    "Description": ""
+  },
+  {
+    "ID": "85486f66-ea6a-486c-8057-859b033e806b",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 2770,
+    "Date": "2022-03-06T07:36:43",
+    "Description": ""
+  },
+  {
+    "ID": "d641da81-258e-4e14-a303-aad70f963ee6",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 14700,
+    "Date": "2022-03-07T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "b69ea4ac-146a-42f6-b410-b75be89bbe51",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 930,
+    "Date": "2022-03-10T01:50:19",
+    "Description": ""
+  },
+  {
+    "ID": "1fd069b4-910b-4729-9389-a1c7ce3381e7",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 4850,
+    "Date": "2022-03-16T16:48:24",
+    "Description": ""
+  },
+  {
+    "ID": "cff2a914-1108-41d7-b74b-f77200367f67",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 16700,
+    "Date": "2022-03-21T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "cd1cbd10-3d02-459f-95bc-d05c8c82d13e",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 4680,
+    "Date": "2022-03-21T17:48:57",
+    "Description": ""
+  },
+  {
+    "ID": "a4a088a0-4886-402b-b7cc-b408ced925c8",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 670,
+    "Date": "2022-03-23T15:41:44",
+    "Description": ""
+  },
+  {
+    "ID": "1b5f1630-77c8-4320-a273-77da844d093d",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 3460,
+    "Date": "2022-03-27T22:41:56",
+    "Description": ""
+  },
+  {
+    "ID": "a21ae8c4-83b9-464f-b683-7842f5fb107c",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 3,
+    "Amount": 1380,
+    "Date": "2022-04-03T15:44:15",
+    "Description": ""
+  },
+  {
+    "ID": "9a3a6bcc-4943-4e2c-b473-f963ba666e39",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 10300,
+    "Date": "2022-04-04T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "3292059e-5b60-4c08-8a10-a3310fcb917d",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 3700,
+    "Date": "2022-04-05T13:42:11",
+    "Description": ""
+  },
+  {
+    "ID": "29609115-1e3b-4378-95cc-0ef1c6f9f3b7",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 3070,
+    "Date": "2022-04-08T16:29:33",
+    "Description": ""
+  },
+  {
+    "ID": "5fea18b5-40a5-4f4f-80a1-ff602e0a42be",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 3920,
+    "Date": "2022-04-11T12:17:47",
+    "Description": ""
+  },
+  {
+    "ID": "be2067dd-9105-47a7-bc26-30a6f006df15",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 1760,
+    "Date": "2022-04-17T22:20:33",
+    "Description": ""
+  },
+  {
+    "ID": "090a585d-64f8-4cf4-81f4-89c7f5198fdc",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 2,
+    "Amount": 8000,
+    "Date": "2022-04-18T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "c4a8e606-a8f8-49ae-8c83-9b3f65472f41",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 4070,
+    "Date": "2022-04-24T19:08:22",
+    "Description": ""
+  },
+  {
+    "ID": "a1c02cba-335f-4f45-a677-c05a86175155",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 5,
+    "Amount": 4050,
+    "Date": "2022-04-29T07:02:48",
+    "Description": ""
+  },
+  {
+    "ID": "ec3856aa-33f7-457e-aceb-4d090e4bfb7a",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 17300,
+    "Date": "2022-05-02T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "5daf54d5-f018-44c6-98a0-12cfeab9b1fa",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 2120,
+    "Date": "2022-05-06T02:13:28",
+    "Description": ""
+  },
+  {
+    "ID": "0af7758e-eed5-41cc-a620-a09452c1697c",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 3060,
+    "Date": "2022-05-11T04:56:17",
+    "Description": ""
+  },
+  {
+    "ID": "b11fb9cc-adf4-4f64-a888-ec6e5b9d70bc",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 4610,
+    "Date": "2022-05-14T11:30:13",
+    "Description": ""
+  },
+  {
+    "ID": "67292e07-f9e8-4cb9-806d-2fcbaea38f52",
+    "IsIncome": true,
+    "BankAccountID": 0,
+    "CategoryID": 2,
+    "Amount": 17200,
+    "Date": "2022-05-16T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "1d99541c-f876-4d6b-a9b8-3639f9a403b2",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 3640,
+    "Date": "2022-05-18T05:00:47",
+    "Description": ""
+  },
+  {
+    "ID": "550e6e45-0966-49f0-860f-c20ab513cbd5",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 3,
+    "Amount": 120,
+    "Date": "2022-05-19T12:40:14",
+    "Description": ""
+  },
+  {
+    "ID": "77036edd-6cca-4fa9-bc53-79591049fe3b",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 440,
+    "Date": "2022-05-24T02:06:11",
+    "Description": ""
+  },
+  {
+    "ID": "eb628e9e-e277-4051-a126-15783a980b6a",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 2,
+    "Amount": 13800,
+    "Date": "2022-05-30T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "87155a34-5ddf-4951-b9f9-543cb2f289dc",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 3920,
+    "Date": "2022-05-30T07:52:36",
+    "Description": ""
+  },
+  {
+    "ID": "98d2b9ec-6591-4e07-9779-dec4594825b3",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 3660,
+    "Date": "2022-06-02T12:16:52",
+    "Description": ""
+  },
+  {
+    "ID": "e0283599-18c0-4b76-840c-42ac9d0f4e3f",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 7,
+    "Amount": 130,
+    "Date": "2022-06-07T20:40:14",
+    "Description": ""
+  },
+  {
+    "ID": "08d33cb3-cb5f-43f5-95d5-ca6fcd8f41ac",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 1760,
+    "Date": "2022-06-08T11:30:46",
+    "Description": ""
+  },
+  {
+    "ID": "966d1c7a-595a-41b7-b23a-7b9fb443ed42",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 180,
+    "Date": "2022-06-10T03:06:00",
+    "Description": ""
+  },
+  {
+    "ID": "97a7a392-607b-4076-b213-e95a4e0c8118",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 2,
+    "Amount": 12200,
+    "Date": "2022-06-13T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "10d3cb74-f05b-451f-be3b-c029324b0755",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 6,
+    "Amount": 2420,
+    "Date": "2022-06-13T07:05:29",
+    "Description": ""
+  },
+  {
+    "ID": "d9c6da74-bc9c-4114-af2e-7109ae4c925a",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 4230,
+    "Date": "2022-06-16T08:08:26",
+    "Description": ""
+  },
+  {
+    "ID": "95e88ad7-1fbb-4d2c-8cfe-7cdc853db498",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 1750,
+    "Date": "2022-06-20T19:18:41",
+    "Description": ""
+  },
+  {
+    "ID": "5eea38d8-0775-48cb-a1cb-d352d3242c2f",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 1160,
+    "Date": "2022-06-23T02:01:23",
+    "Description": ""
+  },
+  {
+    "ID": "e20e9a6f-1a0d-49f6-b2a9-c64d27119a2d",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 2710,
+    "Date": "2022-06-26T04:02:51",
+    "Description": ""
+  },
+  {
+    "ID": "125f5869-2b3c-4839-826b-5460ee20952d",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 2760,
+    "Date": "2022-06-27T04:45:22",
+    "Description": ""
+  },
+  {
+    "ID": "1638cf02-faf3-4238-828f-bc76e0c4a802",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 4,
+    "Amount": 13300,
+    "Date": "2022-06-27T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "00bd0b49-a195-414a-8ab6-1277b292d4ef",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 1,
+    "Amount": 3790,
+    "Date": "2022-06-30T18:00:26",
+    "Description": ""
+  },
+  {
+    "ID": "b52e8d0b-4abb-4fd0-ac10-33c4a02b74db",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 3,
+    "Amount": 2420,
+    "Date": "2022-07-01T22:18:17",
+    "Description": ""
+  },
+  {
+    "ID": "491d6874-988d-4708-86d4-981812fb6ff8",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 4200,
+    "Date": "2022-07-04T16:32:29",
+    "Description": ""
+  },
+  {
+    "ID": "4d7c35fb-bfd1-485d-b0fe-d128057f8d64",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 1,
+    "Amount": 3470,
+    "Date": "2022-07-08T23:29:14",
+    "Description": ""
+  },
+  {
+    "ID": "6bc8b1d1-a4ee-42c2-b881-466c31713e47",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 2560,
+    "Date": "2022-07-11T00:43:08",
+    "Description": ""
+  },
+  {
+    "ID": "a6f872c2-d7d9-45b1-a7a0-6799ef50868b",
+    "IsIncome": true,
+    "BankAccountID": 1,
+    "CategoryID": 4,
+    "Amount": 15200,
+    "Date": "2022-07-11T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "a5d5c125-a0c4-4018-845f-0a7b0063b433",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 1420,
+    "Date": "2022-07-12T11:20:16",
+    "Description": ""
+  },
+  {
+    "ID": "2651fb9d-5e86-4644-906a-6355222860df",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 3840,
+    "Date": "2022-07-19T06:31:13",
+    "Description": ""
+  },
+  {
+    "ID": "00c2743c-f87e-449d-a728-0f3bce26be11",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 1,
+    "Amount": 4620,
+    "Date": "2022-07-23T05:27:51",
+    "Description": ""
+  },
+  {
+    "ID": "afa730d5-aec6-4cf7-aa18-a9b5dbba3575",
+    "IsIncome": true,
+    "BankAccountID": 2,
+    "CategoryID": 4,
+    "Amount": 17000,
+    "Date": "2022-07-25T07:00:00",
+    "Description": ""
+  },
+  {
+    "ID": "d649b954-f84e-4508-847b-c1e458d2f715",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 7,
+    "Amount": 1490,
+    "Date": "2022-07-28T23:53:05",
+    "Description": ""
+  },
+  {
+    "ID": "6d07f68a-a3fc-4638-a8d8-bd3c1c6a94e5",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 0,
+    "Amount": 1670,
+    "Date": "2022-07-31T19:33:19",
+    "Description": ""
+  },
+  {
+    "ID": "d0c143cd-5763-4d27-b093-546fa15fe06b",
+    "IsIncome": false,
+    "BankAccountID": 1,
+    "CategoryID": 0,
+    "Amount": 2170,
+    "Date": "2022-08-06T14:38:55",
+    "Description": ""
+  },
+  {
+    "ID": "c1132a36-5436-497b-ad47-4d20dcd8beb8",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 5,
+    "Amount": 4740,
+    "Date": "2022-08-09T18:47:08",
+    "Description": ""
+  },
+  {
+    "ID": "b094ab4c-8807-453b-92e5-78523d52f17e",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 7,
+    "Amount": 640,
+    "Date": "2022-08-14T22:19:37",
+    "Description": ""
+  },
+  {
+    "ID": "9d6dfa72-de20-4fdc-bdad-461c22cb520c",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 5,
+    "Amount": 4490,
+    "Date": "2022-08-17T19:17:06",
+    "Description": ""
+  },
+  {
+    "ID": "5d557b1a-0214-4852-9974-ae571b2da52c",
+    "IsIncome": false,
+    "BankAccountID": 2,
+    "CategoryID": 0,
+    "Amount": 2900,
+    "Date": "2022-08-22T04:37:37",
+    "Description": ""
+  },
+  {
+    "ID": "7bac0467-2862-4988-abaf-46a843ef502d",
+    "IsIncome": false,
+    "BankAccountID": 0,
+    "CategoryID": 1,
+    "Amount": 4530,
+    "Date": "2022-08-24T05:23:22",
+    "Description": ""
+  }
+]

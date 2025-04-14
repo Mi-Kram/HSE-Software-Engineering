@@ -102,9 +102,7 @@
 
     ![alt text](./ReadmeImages/MainCoverage.png)
 
-  В среднем — на `87%`. Результаты лежат в тестовых проектах в папке `TestResult`:
-  - `Main.Tests/TestResults/{hash}/coverage.cobertura.xml` — файл-отчёт.
-  - `Main.Tests/TestResults/{hash}/html/index.html` — визуализация отчёта.
+  В среднем тесты покрыты на `87%`.
 
 ## Тестовые данные лежат в папке `./backup`
 Всё содержимое этой папки необходимо закинуть в папку с исполняемым файлом. По умолчанию, эти файлы там будут.

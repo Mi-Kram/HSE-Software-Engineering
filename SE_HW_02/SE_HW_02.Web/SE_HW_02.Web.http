@@ -1,0 +1,6 @@
+@SE_HW_02.Web_HostAddress = http://localhost:5248
+
+GET {{SE_HW_02.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,3 +1,5 @@
+<p style="text-align: right"> <a href="https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main" alt="General"> Главная страница </a> </p>
+
 # КПО, КР №01
 
 ## a. Общая идея вашего решения (какой функционал реализовали, особенно если вносили изменения в функциональные требования).
@@ -88,19 +90,19 @@
 ## Код покрыт тестами на:
   - `MenuLibrary:`  **92.6%**
 
-    ![alt text](./ReadmeImages/MenuLibraryCoverage.png)
+    ![MenuLibrary](./ReadmeImages/MenuLibraryCoverage.png)
 
   - `ImportExportLibrary:`  **100%**
 
-    ![alt text](./ReadmeImages/ImportExportLibraryCoverage.png)
+    ![ImportExportLibrary](./ReadmeImages/ImportExportLibraryCoverage.png)
 
   - `HseBankLibrary:`  **82.5%**
  
-    ![alt text](./ReadmeImages/HseBankLibraryCoverage.png)
+    ![HseBankLibrary](./ReadmeImages/HseBankLibraryCoverage.png)
 
  - `Main:`  **74%**
 
-    ![alt text](./ReadmeImages/MainCoverage.png)
+    ![Main](./ReadmeImages/MainCoverage.png)
 
   В среднем тесты покрыты на `87%`.
 

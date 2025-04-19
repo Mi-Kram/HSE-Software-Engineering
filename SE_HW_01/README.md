@@ -1,3 +1,5 @@
+<p style="text-align: right"> <a href="https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main" alt="General"> Главная страница </a> </p>
+
 # КПО, Мини ДЗ №01
 
 ## Пояснения применения принципов SOLID.

@@ -10,10 +10,15 @@
 
 ## Мини-ДЗ:
 1. [Мини-ДЗ 01](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_HW_01)
+: Московский зоопарк (SOLID)
 2. [Мини-ДЗ 02](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_HW_02)
+: Московский зоопарк (Clean Architecture)
 
 ## Контрольные Работы:
 1. [КР 01](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_CW_01)
+: Hse Bank (Паттерны)
+2. [КР 02](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_CW_02)
+: Анализ текстовых файлов (Микросервисная архитектура)
 
 ---
 

@@ -1,0 +1,61 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5104"
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7203;http://localhost:5104"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_HTTPS_PORTS": "8081",
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "FStoring.SRORAGE_ADDRESS": "app-storage:9000",
+        "FStoring.SRORAGE_LOGIN": "kramarenko",
+        "FStoring.SRORAGE_PASSWORD": "8567329b-21b3-4cb2-ae73-49694d1a8af9",
+        "FStoring.SRORAGE_BUCKET": "works",
+        "FStoring.SRORAGE_SSL": "False",
+        "FStoring.TOKEN": "e71d03d8-cb01-407e-bb11-670a8f99759a",
+        "FStoring.DB_CONNECTION": "Host=app-db;Port=5432;Database=storage-db;Username=kramarenko;Password=a35f304a-bbf1-4b60-8580-06d7b24af0a1"
+      },
+      "publishAllPorts": true,
+      "useSSL": true,
+      "containerRunArguments": "-p 8080:8080 -p 8081:8081 --network kramarenko-network",
+      "containerName": "storage-service"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:19708",
+      "sslPort": 44343
+    }
+  }
+}

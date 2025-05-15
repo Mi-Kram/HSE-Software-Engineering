@@ -1,0 +1,181 @@
+name: kramarenko-cw2
+
+services:
+  
+  # База данных.
+  # Один сервер, 2 базы данных (storage-db, analyse-db).
+
+  app-db:
+    image: postgres
+    container_name: app-db
+    # set shared memory limit when using docker compose
+    # or set shared memory limit when deploy via swarm stack
+    shm_size: 128mb
+
+    environment:
+      - POSTGRES_MULTIPLE_DATABASES=storage-db,analyse-db
+      - POSTGRES_USER=kramarenko
+      - POSTGRES_PASSWORD=a35f304a-bbf1-4b60-8580-06d7b24af0a1
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./database/init-scripts:/docker-entrypoint-initdb.d
+      - ./database/data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kramarenko"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      kramarenko-network:
+        aliases:
+          - app-db
+
+
+  # PgAdmin.
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@mi.kram"
+      PGADMIN_DEFAULT_PASSWORD: "1514714e-a2a7-4b86-83e8-035c12947d6e"
+      # PGADMIN_CONFIG_SERVER_MODE: "False"
+      # PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    volumes:
+      - ./database/pgadmin:/var/lib/pgadmin
+    ports:
+      - "5000:80"
+    restart: unless-stopped
+    depends_on:
+      app-db:
+        condition: service_healthy
+        restart: true
+    networks:
+      - kramarenko-network
+  
+
+  # Место хранения работ, S3.
+
+  app-storage:
+    image: minio/minio
+    container_name: app-storage
+    ports:
+      # - "9000:9000"   # S3 API
+      - "9001:9001"     # Web UI
+    environment:
+      MINIO_ROOT_USER: kramarenko
+      MINIO_ROOT_PASSWORD: 8567329b-21b3-4cb2-ae73-49694d1a8af9
+    command: server /data --console-address ":9001"
+    volumes:
+      - ./database/storage:/data
+    healthcheck:
+      test: ["CMD", "curl", "-I", "127.0.0.1:9000/minio/health/cluster"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      kramarenko-network:
+        aliases:
+          - app-storage
+
+
+  # Сервис хранения работ.
+
+  storage-service:
+    build: ./FileStoringService/
+    container_name: storage-service
+    environment:
+      # Данные для доступа к храналищу данных (S3 | Minio)
+      FStoring.SRORAGE_ADDRESS: "app-storage:9000"
+      FStoring.SRORAGE_LOGIN: "kramarenko"
+      FStoring.SRORAGE_PASSWORD: "8567329b-21b3-4cb2-ae73-49694d1a8af9"
+      FStoring.SRORAGE_BUCKET: "works"
+      FStoring.SRORAGE_SSL: "False"
+      # Токен авторизации запросов. "token1;...;tokenN"
+      FStoring.TOKEN: "e71d03d8-cb01-407e-bb11-670a8f99759a"
+      # Строка подключения к бд.
+      FStoring.DB_CONNECTION: "Host=app-db;Port=5432;Database=storage-db;Username=kramarenko;Password=a35f304a-bbf1-4b60-8580-06d7b24af0a1"
+    depends_on:
+      app-db:
+        condition: service_healthy
+        restart: true
+      app-storage:
+        condition: service_healthy
+        restart: true
+    restart: unless-stopped
+    networks:
+      kramarenko-network:
+        aliases:
+          - storage-service
+
+
+  # Сервис анализа работ
+
+  analyse-service:
+    build: ./FileAnalysisService/
+    container_name: analyse-service
+    environment:
+      # Данные для доступа к храналищу данных (S3 | Minio)
+      FAnalysis.WordsCloud.SRORAGE_ADDRESS: "app-storage:9000"
+      FAnalysis.WordsCloud.SRORAGE_LOGIN: "kramarenko"
+      FAnalysis.WordsCloud.SRORAGE_PASSWORD: "8567329b-21b3-4cb2-ae73-49694d1a8af9"
+      FAnalysis.WordsCloud.SRORAGE_BUCKET: "words-clouds"
+      FAnalysis.WordsCloud.SRORAGE_SSL: "False"
+      # Токен авторизации запросов. "token1;...;tokenN"
+      FAnalysis.TOKEN: "fa5ed688-1c4e-4e55-936c-f49e6d05968e"
+      # Строка подключения к бд.
+      FAnalysis.DB_CONNECTION: "Host=app-db;Port=5432;Database=analyse-db;Username=kramarenko;Password=a35f304a-bbf1-4b60-8580-06d7b24af0a1"
+      # Адрес gateway
+      FAnalysis.MAIN_SERVER: "http://gateway-service:8080"
+    depends_on:
+      app-db:
+        condition: service_healthy
+        restart: true
+    restart: unless-stopped
+    networks:
+      kramarenko-network:
+        aliases:
+          - analyse-service
+
+
+
+  # Сервис распределения запросов.
+
+  gateway-service:
+    build: ./Gateway/
+    container_name: gateway-service
+    environment:
+      FGateway.STORAGE_SERVER: "http://storage-service:8080"
+      FGateway.STORAGE_TOKEN: "e71d03d8-cb01-407e-bb11-670a8f99759a"
+      FGateway.ANALYSE_SERVER: "http://analyse-service:8080"
+      FGateway.ANALYSE_TOKEN: "fa5ed688-1c4e-4e55-936c-f49e6d05968e"
+    depends_on:
+      - storage-service
+      - analyse-service
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    restart: unless-stopped
+    networks:
+      kramarenko-network:
+        aliases:
+          - gateway-service
+
+
+
+networks:
+  kramarenko-network:
+    name: kramarenko-network
+    driver: bridge
+
+# 
+# out ports:
+#   :5000       -  PgAdmin
+#   :9001       -  S3 | Minio
+#   :8080/8081  -  Gateway
+# 
+

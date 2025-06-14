@@ -90,19 +90,19 @@
 ## Код покрыт тестами на:
   - `MenuLibrary:`  **92.6%**
 
-    ![MenuLibrary](./ReadmeImages/MenuLibraryCoverage.png)
+    ![MenuLibrary](./docs/MenuLibraryCoverage.png)
 
   - `ImportExportLibrary:`  **100%**
 
-    ![ImportExportLibrary](./ReadmeImages/ImportExportLibraryCoverage.png)
+    ![ImportExportLibrary](./docs/ImportExportLibraryCoverage.png)
 
   - `HseBankLibrary:`  **82.5%**
  
-    ![HseBankLibrary](./ReadmeImages/HseBankLibraryCoverage.png)
+    ![HseBankLibrary](./docs/HseBankLibraryCoverage.png)
 
  - `Main:`  **74%**
 
-    ![Main](./ReadmeImages/MainCoverage.png)
+    ![Main](./docs/MainCoverage.png)
 
   В среднем тесты покрыты на `87%`.
 

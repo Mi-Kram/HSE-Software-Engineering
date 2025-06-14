@@ -19,6 +19,8 @@
 : Hse Bank (Паттерны)
 2. [КР 02](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_CW_02)
 : Анализ текстовых файлов (Микросервисная архитектура)
+3. [КР 03](https://github.com/Mi-Kram/HSE-Software-Engineering/tree/main/SE_CW_03)
+: Оплата заказов (Взаимодействие сервисов через Kafka)
 
 ---
 

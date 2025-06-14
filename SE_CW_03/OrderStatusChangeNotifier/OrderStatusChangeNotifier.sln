@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderStatusChangeNotifier.API", "OrderStatusChangeNotifier.API\OrderStatusChangeNotifier.API.csproj", "{CE0DB1F8-55AD-4862-96B3-FF9412E2716A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderStatusChangeNotifier.Domain", "OrderStatusChangeNotifier.Domain\OrderStatusChangeNotifier.Domain.csproj", "{126F31C8-C87A-4158-A474-6976748DD3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderStatusChangeNotifier.Application", "OrderStatusChangeNotifier.Application\OrderStatusChangeNotifier.Application.csproj", "{DEABABD6-1907-48CC-90C7-7C034D4368D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderStatusChangeNotifier.Infrastructure", "OrderStatusChangeNotifier.Infrastructure\OrderStatusChangeNotifier.Infrastructure.csproj", "{5778CC42-2DFD-4568-BCF6-FD3633703858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderStatusChangeNotifier.Tests", "OrderStatusChangeNotifier.Tests\OrderStatusChangeNotifier.Tests.csproj", "{EC665546-6693-476C-A452-679F31762998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0DB1F8-55AD-4862-96B3-FF9412E2716A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0DB1F8-55AD-4862-96B3-FF9412E2716A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0DB1F8-55AD-4862-96B3-FF9412E2716A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0DB1F8-55AD-4862-96B3-FF9412E2716A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126F31C8-C87A-4158-A474-6976748DD3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126F31C8-C87A-4158-A474-6976748DD3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126F31C8-C87A-4158-A474-6976748DD3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126F31C8-C87A-4158-A474-6976748DD3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEABABD6-1907-48CC-90C7-7C034D4368D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEABABD6-1907-48CC-90C7-7C034D4368D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEABABD6-1907-48CC-90C7-7C034D4368D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEABABD6-1907-48CC-90C7-7C034D4368D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5778CC42-2DFD-4568-BCF6-FD3633703858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5778CC42-2DFD-4568-BCF6-FD3633703858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5778CC42-2DFD-4568-BCF6-FD3633703858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5778CC42-2DFD-4568-BCF6-FD3633703858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC665546-6693-476C-A452-679F31762998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC665546-6693-476C-A452-679F31762998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC665546-6693-476C-A452-679F31762998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC665546-6693-476C-A452-679F31762998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA08C59F-C088-4C7A-AEEB-202082BC6C03}
+	EndGlobalSection
+EndGlobal
